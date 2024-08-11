@@ -35,9 +35,9 @@
 31. Home Classic
 32. White Version
 ----------------------------*/
-/* Default  */
+/* Default  
 @import url("../../../../css2.css");
-@import url("../../../../css2-1.css");
+@import url("../../../../css2-1.css");*/
 :root {
   --color-primary: #ff014f;
   --color-secondary: #f4f5f6;
