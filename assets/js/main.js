@@ -1,5 +1,24 @@
 (function ($) {
     'use strict';
+    function sendMail(event) {
+        event.preventDefault(); // Prevent the form from submitting traditionally
+    
+        var params = {
+            from_name: document.getElementById("contact-name").value,
+            phone_number: document.getElementById("contact-phone").value,
+            from_email: document.getElementById("contact-email").value,
+            subject: document.getElementById("subject").value,
+            message: document.getElementById("contact-message").value
+        };
+    
+        emailjs.send("service_7ijnibq", "template_i2ytvv8", params)
+            .then(function() {
+                alert('Your message has been sent!');
+            }, function(error) {
+                alert('Oops! Something went wrong. Please try again.');
+            });
+    }
+    
 
     var imJs = {
         m: function (e) {
@@ -421,6 +440,5 @@
 
     }
     imJs.m();
-
 
 })(jQuery, window)
