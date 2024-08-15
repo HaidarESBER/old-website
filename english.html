@@ -29,47 +29,7 @@
     </script>
     <head>
         <!-- Other head content -->
-        <style>
-            .language-modal {
-                display: none; /* Hidden by default */
-                position: fixed; 
-                z-index: 1000; /* Sits on top of other content */
-                left: 0;
-                top: 0;
-                width: 100%; 
-                height: 100%; 
-                overflow: auto; 
-                background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
-            }
-    
-            .language-modal-content {
-                background-color: #fff;
-                margin: 15% auto; /* Center vertically and horizontally */
-                padding: 20px;
-                border: 1px solid #888;
-                width: 80%;
-                max-width: 400px;
-                text-align: center;
-                border-radius: 8px;
-            }
-    
-            .language-button {
-                background-color: #4CAF50; /* Green */
-                color: white;
-                padding: 15px 20px;
-                margin: 10px;
-                border: none;
-                cursor: pointer;
-                font-size: 16px;
-                border-radius: 4px;
-                width: 100px;
-            }
-    
-            .language-button:hover {
-                background-color: #45a049; /* Darker green */
-            }
-        </style>
-    </head>
+        
     
     
 </head>
@@ -77,14 +37,7 @@
 
 <body 
     class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
-    <!-- Language Selection Modal -->
-<div id="languageModal" class="language-modal">
-    <div class="language-modal-content">
-        <li>Please choose your language:</li>
-        <button id="selectEnglish" class="language-button">English</button>
-        <button id="selectFrench" class="language-button">Français</button>
-    </div>
-</div>
+    
     <!-- Start Header -->
     <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
         <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
@@ -92,7 +45,7 @@
             <div class="col-lg-2 col-6">
                 <div class="header-left">
                     <div class="logo">
-                        <a href="english.html">
+                        <a href="index.html">
                             <img src="assets/images/logo/logo.png" alt="logo">
                         </a>
                     </div>
@@ -111,7 +64,7 @@
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Certifications</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#pricing">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
-                            <li class="nav-item"><a  href="english.html">EN</a> </li><li> <a  href="french.html">FR</a></li>
+                            <li class="nav-item"><a  href="index.html">EN</a> </li><li> <a  href="french.html">FR</a></li>
 
 
                         </ul>
@@ -142,7 +95,7 @@
         <div class="inner">
             <div class="menu-top">
                 <div class="menu-header">
-                    <a class="logo" href="english.html">
+                    <a class="logo" href="index.html">
                         <img src="assets/images/logo/logos-circle.png" alt="Personal Portfolio">
                     </a>
                     <div class="close-button">
@@ -161,7 +114,7 @@
                     <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
                     <li></li><li></li><li></li>
                     <li>Languages:</li>
-                    <li><a  href="english.html">EN</a> </li>
+                    <li><a  href="index.html">EN</a> </li>
                     <li> <a  href="french.html">FR</a></li>
                 </ul>
                 <!-- social sharea area -->
@@ -1662,22 +1615,7 @@
 
     <!-- JS ============================================ -->
      
-   <script> window.onload = function() {
-        var modal = document.getElementById('languageModal');
-        modal.style.display = 'block';
-    
-
-        var selectEnglish = document.getElementById('selectEnglish');
-        var selectFrench = document.getElementById('selectFrench');
-    
-        selectEnglish.onclick = function() {
-            window.location.href = 'english.html'; 
-        };
-    
-        selectFrench.onclick = function() {
-            window.location.href = 'french.html'; 
-        };
-   };</script>
+   
     
     <script src="assets/js/script.js"></script>
     <script src="assets/js/vendor/jquery.js"></script>
