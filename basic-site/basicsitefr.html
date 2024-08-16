@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haidar Esber - Site Personnel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "c2pM4Kh6AvReATuKM",
+      });
+   })();
+</script>
+</head>
+<body>
+    <!-- Barre de Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Expérience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="home" class="section">
+        <div class="hero">
+            <img src="Haidar.jpg" alt="Haidar Esber">
+            <h1>Haidar Esber</h1>
+            <p>Développeur de logiciels innovant avec une passion pour la création d'applications et de solutions à la pointe de la technologie.</p>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="section">
+        <h2>À propos de moi</h2>
+        <p>Je suis actuellement en troisième année de développement d'applications chez Learn IT / Open Campus, avec une solide expérience en développement de logiciels et de sites web. Je suis toujours désireux d'apprendre et de relever de nouveaux défis.</p>
+    
+        <h3>Éducation</h3>
+        <ul class="education-list">
+            <li>
+                <h4>Bachelor 3 Concepteur développeur d'applications</h4>
+                <p>Learn IT / Open Campus</p>
+            </li>
+            <li>
+                <h4>Technicien certifié CISCO</h4>
+                <p>CISCO</p>
+            </li>
+            <li>
+                <h4>Licence 1-2 Maths-Informatique</h4>
+                <p>Université d'Angers</p>
+            </li>
+            <!-- Ajouter plus de détails -->
+        </ul>
+    
+        <h3>Certifications</h3>
+        <ul class="certifications-list">
+            <li>
+                <h4>IT Essentials</h4>
+                <p>Cisco Networking Academy</p>
+            </li>
+            <li>
+                <h4>Web Design</h4>
+                <p>Organisation des Nations Unies</p>
+            </li>
+            <li>
+                <h4>Introduction à la CyberSécurité</h4>
+                <p>Cisco Networking Academy</p>
+            </li>
+            <li>
+                <h4>Certification de Robotique Arduino Uno</h4>
+                <p>Organisation libanaise pour les études et la technologie</p>
+            </li>
+            <li>
+                <h4>Certification EF SET en anglais - C2 Proficient</h4>
+                <p>EF Education First</p>
+            </li>
+            <li>
+                <h4>Certification PIX</h4>
+                <p>Pix.fr</p>
+            </li>
+            <li>
+                <h4>Programme d'enseignement et de leadership</h4>
+                <p>LOST (Organisation libanaise pour les études et la technologie)</p>
+            </li>
+            <!-- Ajouter plus de certifications -->
+        </ul>
+    </section>
+    
+    <!-- Section Compétences -->
+    <section id="skills" class="section">
+        <h2>Compétences</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <h3>Langages de Programmation</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>Rust</li>
+                    <!-- Ajouter plus de compétences -->
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Outils & Technologies</h3>
+                <ul>
+                    <li>Raspberry Pi</li>
+                    <li>Arduino</li>
+                    <li>GNU/Bash</li>
+                    <li>Linux</li>
+                    <!-- Ajouter plus d'outils -->
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Compétences interpersonnelles</h3>
+                <ul>
+                    <li>Travail d'équipe</li>
+                    <li>Travail individuel</li>
+                    <li>Leadership</li>
+                    <li>Résolution de problèmes</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expérience -->
+    <section id="experience" class="section">
+        <h2>Expérience</h2>
+        <div class="experience-list">
+            <div class="experience-item">
+                <h3>Développeur de Robot Discord - Discordapp</h3>
+                <p>Participation au développement du bot "Dank Memer", l'un des bots Discord les plus populaires. Développement de 4 bots d'auto-modération de serveur, manipulation d'images et modération.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Tuteur d'Arduino UNO et de bases en robotique - Baalbeck</h3>
+                <p>Enseignement de cours de robotique utilisant Arduino à des étudiants âgés de 14 à 25 ans.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Web Designer Freelance - Fiverr</h3>
+                <p>Création de blogs personnels et de pages d'accueil pour des sites web, en se concentrant sur le développement front-end.</p>
+            </div>
+            <!-- Ajouter plus d'expériences -->
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="section">
+        <h2>Projets</h2>
+        <div class="projects-list">
+            <div class="project-item">
+                <h3>Système Anti-Incendie</h3>
+                <p>Développement d'un système de détection de fumée et d'extinction utilisant un Raspberry Pi, incluant un système d'alarme et une pompe à eau.</p>
+            </div>
+            <div class="project-item">
+                <h3>Bataille Navale en C++</h3>
+                <p>Un jeu vidéo pour 2 joueurs ou 1 joueur contre un robot, construit en C++.</p>
+            </div>
+            <div class="project-item">
+                <h3>Robot Sumo</h3>
+                <p>Programmation et installation de robots de lutte sumo utilisant Arduino, et participation à des tournois nationaux au Liban.</p>
+            </div>
+            <!-- Ajouter plus de projets -->
+        </div>
+    </section>
+    
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <h2>Contactez-moi</h2>
+        <div>
+            <input type="text" name="name" id="name" placeholder="Votre Nom" required>
+            <input type="email" name="email" id="email" placeholder="Votre Email" required>
+            <textarea name="message" id="message" placeholder="Votre Message" required></textarea>
+            <button onclick="sendMail()">Envoyer</button>
+        </div>
+        <p>Vous pouvez également me joindre directement au : <strong>+33749033679</strong></p>
+        <p>Ou me connecter sur <a href="https://www.linkedin.com/in/haidar-esber-36a509213">LinkedIn</a>.</p>
+    </section>
+</body>
+</html>
